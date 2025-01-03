@@ -1,0 +1,25 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "singletone.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "npx rimraf ./dist && npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1"
+  }
+}
